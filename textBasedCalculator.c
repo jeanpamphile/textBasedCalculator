@@ -1,5 +1,5 @@
 #include<stdio.h>
-//#include<stdlib.h>
+#include<stdlib.h>
 
 char menu();
 int add(int x, int y);
@@ -21,7 +21,7 @@ int main(int argc, char *argv[]){
   //while(1){
   
     if(operationPicked == 'a' || operationPicked == 'A'){
-      printf("Let's add.\n");
+      printf("Let's add then.\n");
       num1();
       num2();
       int x = num1();
@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
     }
   
     if(operationPicked == 's' || operationPicked == 'S'){
-      printf("Let's subtract.\n");
+      printf("Let's subtract then.\n");
       num1();
       num2();
       int x = num1();
@@ -39,7 +39,7 @@ int main(int argc, char *argv[]){
     }
   
     if(operationPicked == 'm' || operationPicked == 'M'){
-      printf("Let's multiply.\n");
+      printf("Let's multiply then.\n");
       num1();
       num2();
       int x = num1();
@@ -48,7 +48,7 @@ int main(int argc, char *argv[]){
     }
   
     if(operationPicked == 'd' || operationPicked == 'D'){
-      printf("Let's divide.\n");
+      printf("Let's divide then.\n");
       num1();
       num2();
       int x = num1();
